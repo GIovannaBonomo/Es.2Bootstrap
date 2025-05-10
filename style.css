@@ -1,6 +1,37 @@
-.customNavbar {
+.customNavbar, a, footer, .bottone-rimuovi{
     background-color: #ffaae6!important;
 }
 .navbar-toggler {
     border: none!important;
 }
+a {
+    border:none!important;
+}
+i {
+    color:  yellow;
+}
+.img-cover{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.modal-footer button{
+    background-color: #ffaae6;
+    color: white;
+}
+#exampleModalLabel {
+    color: #ffaae6;
+}
+.modal-body i {
+    color: gray;
+    padding: 10px;
+}
+textarea:focus {
+    border-color: black;
+    box-shadow: 0 0 5pxr black;
+    outline: none;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;}
